@@ -1,0 +1,161 @@
+/* navbar start */
+
+.navbar{
+    background-color: #82649b;
+}
+
+.container-fluid .navbar-brand{
+    color: aqua;
+    font-weight: 900;
+
+}
+
+.navbar-nav .nav-item a{
+    color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item a:hover{
+    box-shadow: 0px 0px 5px aqua;
+    border-radius: 10px 25px;
+
+}
+
+
+/* java script watch start */
+
+
+    .navbar-brand, .clock-box {
+      color: aqua;
+    }
+
+    .clock-box {
+      text-align: left;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.2;
+    }
+
+    .clock-time {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .clock-date {
+      font-size: 13px;
+    }
+
+
+/* java script watch end */
+
+/* navbar end */
+
+/* faq start */
+
+
+    .faq-container {
+      max-width: 950px;
+      margin: auto;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      background-color: rgb(243, 233, 250);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px #82649b;
+    }
+
+    .faq-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #82649b;
+      font-weight: 900;
+      
+    }
+    
+
+    .faq-search {
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 25px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #e5e7eb;
+      padding: 15px 0;
+      cursor: pointer;
+    }
+
+    .faq-question {
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #82649b;
+      padding: 10px;
+      border-radius: 5px;
+      color: wheat;
+      
+    }
+
+    .faq-question:hover{
+      background-color: #6b309b;
+      
+    }
+
+    .faq-answer {
+      display: none;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #6b309b;
+      font-weight: bold;
+
+    
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .faq-item .icon {
+      font-size: 18px;
+      transition: transform 0.3s;
+    }
+
+    .faq-item.active .icon {
+      transform: rotate(45deg);
+    }
+
+
+
+
+
+
+
+/* faq end */
+
+
+/* footer start */
+
+
+.footer_section{
+    background-color:#82649b;
+    padding: 15px;
+    margin-top: 50px;
+
+
+}
+
+.copyright{
+    color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+/* footer end */
